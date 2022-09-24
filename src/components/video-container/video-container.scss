@@ -1,0 +1,12 @@
+.video-container {
+	width: 100%;
+	display: flex;
+
+	&.left {
+		justify-content: flex-start;
+	}
+
+	&.right {
+		justify-content: flex-end;
+	}
+}
